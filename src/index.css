@@ -1,0 +1,73 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #f8f9fa;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.banner-top .logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.nav-links a {
+  margin-left: 20px;
+  text-decoration: none;
+  color: #007bff;
+}
+
+.menu a {
+  margin: 0 15px;
+  text-decoration: none;
+  color: #000;
+}
+
+.search-bar {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+
+.search-bar input,
+.search-bar button {
+  margin: 0 10px;
+  padding: 10px;
+  font-size: 16px;
+}
+
+.promotions,
+.popular-destinations,
+.recommended-destinations {
+  padding: 20px;
+  text-align: center;
+}
+
+.destination-box {
+  display: inline-block;
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  width: 200px;
+}
+
+.destination-box img {
+  width: 100%;
+  height: auto;
+}
+
+.info h3 {
+  margin: 10px 0;
+}
+
+.banner-bottom {
+  background-color: #f8f9fa;
+  text-align: center;
+  padding: 10px;
+}
